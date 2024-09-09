@@ -25,7 +25,7 @@ El directorio telefónico deberá funcionar a través de la terminal. La idea es
 - El archivo `data.py` contiene un diccionario de nombres y números de teléfono. Puedes importarlos dentro del `main.py` utilizando la siguiente línea de código:
 
     ```python
-      from data.py import people
+      from data import people
     ```
 - Puedes utilizar la librería [rich](https://github.com/Textualize/rich). Para instalarla, puedes utilizar la siguiente línea de código en la terminal:
   ```bash
